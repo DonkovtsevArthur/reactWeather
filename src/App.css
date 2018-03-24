@@ -1,0 +1,67 @@
+.app {
+  position: relative;
+  font-size: 18px;
+  height: 100vh;
+  color: black;
+
+}
+.app[data-hour="1"]
+.app[data-hour="2"],
+.app[data-hour="3"],
+.app[data-hour="4"],
+.app[data-hour="5"],
+.app[data-hour="6"]{
+  background-color: black;
+  color: white;
+}
+.app[data-hour="7"],
+.app[data-hour="8"],
+.app[data-hour="9"],
+.app[data-hour="10"],
+.app[data-hour="11"]{
+  background-color: moccasin;
+  color: white;
+}
+.app[data-hour="12"],
+.app[data-hour="13"],
+.app[data-hour="14"],
+.app[data-hour="15"]{
+  background-color: rgb(255, 234, 0);
+  color: white;
+}
+.app[data-hour="16"],
+.app[data-hour="17"],
+.app[data-hour="18"],
+.app[data-hour="19"]{
+  background-color: darkcyan;
+  color: white;
+}
+.app[data-hour="20"],
+.app[data-hour="21"],
+.app[data-hour="22"],
+.app[data-hour="23"],
+.app[data-hour="24"]{
+  background-color: darkblue;
+  color: white;
+}
+.weather-details {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.city{
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 10px;
+}
+.temperatura {
+  margin: 10px;
+  font-size: 40px;
+}
+.description {
+  font-style: italic;
+}
+
+
